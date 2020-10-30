@@ -135,9 +135,9 @@ def create_tfrecord_file(id, title, content, label, purpose):
     #删除本地临时文件
     os.remove(local_filepath)
 
-access_key_id = 'LTAICj9Xwo2Tm5L4'
-access_key_secret = 'LTUo4ko7qnN7xV7AkNr6vaDeEcbL9P'
-bucket_name = 'myaitest001'
-endpoint = 'http://oss-cn-shanghai.aliyuncs.com'
+access_key_id = ''
+access_key_secret = ''
+bucket_name = ''
+endpoint = ''
 if __name__ == '__main__':
     main()
